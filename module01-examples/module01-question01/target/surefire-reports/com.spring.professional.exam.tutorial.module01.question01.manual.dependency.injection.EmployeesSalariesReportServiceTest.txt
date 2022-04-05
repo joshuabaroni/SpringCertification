@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.spring.professional.exam.tutorial.module01.question01.manual.dependency.injection.EmployeesSalariesReportServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.315 sec
