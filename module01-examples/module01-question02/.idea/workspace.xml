@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a53762f-5f06-4534-8583-3fdf70026b58" name="Changes" comment="" />
+    <list default="true" id="9bbea969-edd4-4cd6-a640-888a90bd1ff0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../module01-question01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module01-question01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/professional/exam/tutorial/module01/question02/after/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/professional/exam/tutorial/module01/question02/after/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/professional/exam/tutorial/module01/question02/after/TextRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/professional/exam/tutorial/module01/question02/after/TextRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/professional/exam/tutorial/module01/question02/before/TextRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/professional/exam/tutorial/module01/question02/before/TextRenderer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +18,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -23,7 +25,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="27NuurtIT5j3A3XIuh7Q0EgXLkI" />
+  <component name="ProjectId" id="27Ny74PuKnv5oxsj0JNJCTg2tnf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,29 +37,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module01-question02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Runner (2)">
+  <component name="RunManager" selected="Application.Runner (1)">
     <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.professional.exam.tutorial.module01.question01.manual.dependency.injection.Runner" />
-      <module name="module01-question01" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.professional.exam.tutorial.module01.question02.after.Runner" />
+      <module name="module01-question02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.professional.exam.tutorial.module01.question01.manual.dependency.injection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.professional.exam.tutorial.module01.question01.spring.dependency.injection.Runner" />
-      <module name="module01-question01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.professional.exam.tutorial.module01.question01.spring.dependency.injection.*" />
+          <option name="PATTERN" value="com.spring.professional.exam.tutorial.module01.question02.after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,11 +55,11 @@
       </method>
     </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.professional.exam.tutorial.module01.question01.no.dependency.injection.Runner" />
-      <module name="module01-question01" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.professional.exam.tutorial.module01.question02.before.Runner" />
+      <module name="module01-question02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.professional.exam.tutorial.module01.question01.no.dependency.injection.*" />
+          <option name="PATTERN" value="com.spring.professional.exam.tutorial.module01.question02.before.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,7 +69,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner (2)" />
         <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.Runner" />
       </list>
@@ -89,27 +77,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a53762f-5f06-4534-8583-3fdf70026b58" name="Changes" comment="" />
-      <created>1649173090734</created>
+      <changelist id="9bbea969-edd4-4cd6-a640-888a90bd1ff0" name="Changes" comment="" />
+      <created>1649174667897</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649173090734</updated>
-      <workItem from="1649173091882" duration="1576000" />
+      <updated>1649174667897</updated>
+      <workItem from="1649174669006" duration="342000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

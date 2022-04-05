@@ -6,6 +6,7 @@ import com.spring.professional.exam.tutorial.module01.question02.common.renderer
 
 public class Runner {
     public static void main(String... args) {
+        // uses text renderer builder rather than having to provide all default values
         TextRenderer textRenderer = new TextRendererBuilder().build();
         textRenderer.render("Default Rendering");
 

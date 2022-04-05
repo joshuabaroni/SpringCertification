@@ -11,6 +11,7 @@ class TextRenderer {
     private final FontColorRenderer fontColorRenderer;
     private final FontWeightRenderer fontWeightRenderer;
 
+    // every time i want to use a different text renderer, even if i am only changing 1 property, i have to provide all properties to this class
     TextRenderer(FontStyleRenderer fontStyleRenderer, FontColorRenderer fontColorRenderer, FontWeightRenderer fontWeightRenderer) {
         this.fontStyleRenderer = fontStyleRenderer;
         this.fontColorRenderer = fontColorRenderer;

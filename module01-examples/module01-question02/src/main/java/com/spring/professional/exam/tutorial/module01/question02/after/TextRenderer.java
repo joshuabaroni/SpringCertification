@@ -14,6 +14,7 @@ class TextRenderer {
     private final FontColorRenderer fontColorRenderer;
     private final FontWeightRenderer fontWeightRenderer;
 
+    // private constructor cannot be called directly, rather, the calling class has to use the build method(s)
     private TextRenderer(FontStyleRenderer fontStyleRenderer, FontColorRenderer fontColorRenderer, FontWeightRenderer fontWeightRenderer) {
         this.fontStyleRenderer = fontStyleRenderer;
         this.fontColorRenderer = fontColorRenderer;
@@ -34,10 +35,13 @@ class TextRenderer {
     }
 
     static class TextRendererBuilder {
+
+        // default values provided
         private FontStyleRenderer fontStyleRenderer = new DefaultFontStyleRenderer();
         private FontColorRenderer fontColorRenderer = new DefaultColorRenderer();
         private FontWeightRenderer fontWeightRenderer = new DefaultFontWeightRenderer();
 
+        // allows value injection into the object without calling full constructor in an external class
         public TextRendererBuilder withFontStyleRenderer(FontStyleRenderer fontStyleRenderer) {
             this.fontStyleRenderer = fontStyleRenderer;
             return this;
@@ -53,6 +57,7 @@ class TextRenderer {
             return this;
         }
 
+        // calls constructor
         public TextRenderer build() {
             return new TextRenderer(fontStyleRenderer, fontColorRenderer, fontWeightRenderer);
         }

@@ -30,3 +30,8 @@
   * Facade
   * Composite
 * __dependency injection__ is a pattern that solves the problem of flexible dependency creation
+* _anti-pattern_ - ineffective and counter-productive solution to often occuring problems
+  * God Object
+  * Sequential Coupling
+  * Circular Dependencies
+  * Constant Interface
